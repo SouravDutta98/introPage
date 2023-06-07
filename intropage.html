@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Starting Page</title>
+  <style>
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    .shortcut {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      border-radius: 5px;
+      text-align: center;
+      background-color: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+
+    .shortcut:hover {
+      transform: scale(1.05);
+    }
+
+    .shortcut a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .shortcut img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    .shortcut span {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="shortcut">
+    <a href="https://www.flipkart.com">
+      <img src="flipkart-logo.png" alt="Flipkart">
+      <span>Flipkart</span>
+    </a>
+  </div>
+  <div class="shortcut">
+    <a href="https://www.amazon.com">
+      <img src="amazon-logo.png" alt="Amazon">
+      <span>Amazon</span>
+    </a>
+  </div>
+  <div class="shortcut">
+    <a href="https://www.facebook.com">
+      <img src="facebook-logo.png" alt="Facebook">
+      <span>Facebook</span>
+    </a>
+  </div>
+  <div class="shortcut">
+    <a href="https://www.instagram.com">
+      <img src="instagram-logo.png" alt="Instagram">
+      <span>Instagram</span>
+    </a>
+  </div>
+</body>
+</html>
